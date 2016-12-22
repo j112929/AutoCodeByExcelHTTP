@@ -1,0 +1,11 @@
+<!-- @author ${author} ${email} -->
+<html>
+	<frameset cols="180,*" border="1px" >
+<#list toList as toClass>
+	<#if toClass_index==0>
+		<frame src="${toClass.controller.nameFU}Interface.html" />
+		<frame name="interface" src="${toClass.nameFU}.html" />
+	</#if>
+</#list>
+	</frameset>
+</html>	

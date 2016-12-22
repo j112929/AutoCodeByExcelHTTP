@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<config  
+	encoding="UTF-8" 
+	protocolExcelName = "D:\AutoCodeByExcelHTTP_2.1\AutoCodeByExcelHTTP_2.1\lilac接口文档_api.xlsx"
+	
+	>
+	<!-- JAVA -->
+	<coder type="server_java" method="codePublicTO" tempFile="ObjectTO.java" isWriteToProject="true" isForceWriteToProject="true" outFilePath="C:\softWare\lilac\JAVA\lilacInterface\src\com\bluemobi\to\api\{}TO.java" />
+    <coder type="server_java" method="codeRequestTO" tempFile="ObjectRequestTO.java" isWriteToProject="true" isForceWriteToProject="true" outFilePath="C:\softWare\lilac\JAVA\lilacInterface\src\com\bluemobi\to\api\{package}\{}RequestTO.java" />
+    <coder type="server_java" method="codeResponseTO" tempFile="ObjectResponseTO.java" isWriteToProject="true" isForceWriteToProject="true" outFilePath="C:\softWare\lilac\JAVA\lilacInterface\src\com\bluemobi\to\api\{package}\{}ResponseTO.java" />
+	<coder type="server_java" method="codeController" tempFile="ObjectController.java" isWriteToProject="true" isForceWriteToProject="false" outFilePath="C:\softWare\lilac\JAVA\lilac\src\com\bluemobi\controller\api\{package}\{}APIController.java" />
+
+
+	<!-- JAVA apiTest -->
+	<coder type="server_java_api_test" method="codeControllerList" tempFile="apiTest\index.html" isWriteToProject="true" isForceWriteToProject="true" outFilePath="C:\softWare\lilac\JAVA\apiTest\index.html" />
+	<coder type="server_java_api_test" method="codeControllerList" tempFile="apiTest\model.html" isWriteToProject="true" isForceWriteToProject="true" outFilePath="C:\softWare\lilac\JAVA\apiTest\model.html" />
+	<coder type="server_java_api_test" method="codeController" tempFile="apiTest\ObjectIndex.html" isWriteToProject="true" isForceWriteToProject="true" outFilePath="C:\softWare\lilac\JAVA\apiTest\{package}\{}Index.html" />
+	<coder type="server_java_api_test" method="codeController" tempFile="apiTest\ObjectInterface.html" isWriteToProject="true" isForceWriteToProject="true" outFilePath="C:\softWare\lilac\JAVA\apiTest\{package}\{}Interface.html" />
+    <coder type="server_java_api_test" method="codeRequestTO" tempFile="apiTest\Object.html" isWriteToProject="true" isForceWriteToProject="true" outFilePath="C:\softWare\lilac\JAVA\apiTest\{package}\{}.html" />
+	<coder type="server_java_api_test" method="copyFiles" tempFile="apiTest\source" isWriteToProject="true" isForceWriteToProject="true" outFilePath="C:\softWare\lilac\JAVA\apiTest\" />
+
+
+	<!-- JAVA apiTest localhost
+	<coder type="server_java_api_test_localhost" method="codeControllerList" tempFile="apiTest\index.html" isWriteToProject="true" isForceWriteToProject="true" outFilePath="D:\webServer\tomcat\webapps\apiTest\index.html" />
+	<coder type="server_java_api_test_localhost" method="codeControllerList" tempFile="apiTest\model.html" isWriteToProject="true" isForceWriteToProject="true" outFilePath="D:\webServer\tomcat\webapps\apiTest\model.html" />
+	<coder type="server_java_api_test_localhost" method="codeController" tempFile="apiTest\ObjectIndex.html" isWriteToProject="true" isForceWriteToProject="true" outFilePath="D:\webServer\tomcat\webapps\apiTest\{package}\{}Index.html" />
+	<coder type="server_java_api_test_localhost" method="codeController" tempFile="apiTest\ObjectInterface.html" isWriteToProject="true" isForceWriteToProject="true" outFilePath="D:\webServer\tomcat\webapps\apiTest\{package}\{}Interface.html" />
+    <coder type="server_java_api_test_localhost" method="codeRequestTO" tempFile="apiTest\ObjectLocalhost.html" isWriteToProject="true" isForceWriteToProject="true" outFilePath="D:\webServer\tomcat\webapps\apiTest\{package}\{}.html" />
+	<coder type="server_java_api_test_localhost" method="copyFiles" tempFile="apiTest\source" isWriteToProject="true" isForceWriteToProject="true" outFilePath="D:\webServer\tomcat\webapps\apiTest\" />
+	-->
+     
+    <!-- IOS
+    <coder type="client_ios" method="codePublicTO" tempFile="Object.h" isWriteToProject="true" isForceWriteToProject="true" outFilePath="D:\ACG\IOS\acgInterface\src\com\bluemobi\to\api\{}.h" />
+    <coder type="client_ios" method="codePublicTO" tempFile="Object.m" isWriteToProject="true" isForceWriteToProject="true" outFilePath="D:\ACG\IOS\acgInterface\src\com\bluemobi\to\api\{}.m" />
+    <coder type="client_ios" method="codeResponseTO" tempFile="ObjectBaseClass.h" isWriteToProject="true" isForceWriteToProject="true" outFilePath="D:\ACG\IOS\acgInterface\src\com\bluemobi\to\api\{package}\{}BaseClass.h" />
+    <coder type="client_ios" method="codeResponseTO" tempFile="ObjectBaseClass.m" isWriteToProject="true" isForceWriteToProject="true" outFilePath="D:\ACG\IOS\acgInterface\src\com\bluemobi\to\api\{package}\{}BaseClass.m" />
+    -->
+
+</config>

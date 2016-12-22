@@ -1,0 +1,9 @@
+<!-- @author ${author} ${email} -->
+<html>
+	<frameset cols="180,*">
+		<frame src="model.html" />
+<#list controllerList as controllerClass>
+		<#if controllerClass_index==0><frame name="content" src="${controllerClass.packageName}/${controllerClass.nameFU}Index.html" /></#if>
+</#list>
+	</frameset>
+</html>

@@ -1,0 +1,27 @@
+/* base - reset */
+.aside-md {width:180px; max-width:180px;}
+
+/* base */
+.edit-notice {padding:10px 0;}
+.nav-header {cursor:pointer;}
+.active-gray {background-color:#EEE;}
+.content-reset {overflow:auto;}
+
+/* main */
+.select-project {margin-bottom:15px;}
+.list-group-item {padding:5px 15px;}
+.Rnav {font-size:12px; margin:0 0 10px;}
+.api-test-memo-stretch {cursor:pointer;}
+
+/* wrapper-right */
+.wrapper-right .api-test-memo-stretch {float:right; cursor:pointer;}
+.wrapper-right .memo-request {border:0; padding:0 8px; color:#666; height:20px; line-height:20px; overflow:hidden;}
+.wrapper-right .height-auto {height:auto;}
+.wrapper-right .para-list {float:left; width:100%; border-left:4px solid #90C6EC; border-radius:10px; list-style:none outside none; margin:0; padding:0 0 0 30px;}
+.wrapper-right .p-param-name {clear:both; float:left; margin:0; width:150px;}
+.wrapper-right .p-param-symbol {float:left; margin-top:6px; padding:0 10px;}
+.wrapper-right .p-param-value {float:left; margin:0 0 5px; min-width:220px;}
+.wrapper-right .p-para-type {float:left; margin:0 0 0 5px; height:33px; line-height:33px; font-weight:bold; overflow:hidden;}
+.wrapper-right .para-memo {padding-left:3px; font-size:12px; font-weight:normal;}
+
+.wrapper-right .apitest-response {margin:25px 0 50px;}
